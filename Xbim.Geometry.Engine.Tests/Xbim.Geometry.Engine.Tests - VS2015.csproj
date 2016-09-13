@@ -58,6 +58,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="..\SharedFileVersionInfo.cs">
+      <Link>Properties\SharedFileVersionInfo.cs</Link>
+    </Compile>
     <Compile Include="AdvBrepRecursionTests.cs" />
     <Compile Include="Diff.cs" />
     <Compile Include="IfcExtrudedAreaSolidTests.cs" />

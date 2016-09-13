@@ -114,6 +114,9 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="..\SharedFileVersionInfo.cs">
+      <Link>Properties\SharedFileVersionInfo.cs</Link>
+    </Compile>
     <Compile Include="Extensions\IIfcAxis2PlacementExtensions.cs" />
     <Compile Include="Extensions\IIfcCartesianTransformExtensions.cs" />
     <Compile Include="Extensions\IIfcRepresentationExtensions.cs" />

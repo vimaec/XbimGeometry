@@ -1,0 +1,33 @@
+Bounding Sphere
+	Indicator of size, does not consider shape proportion and mass
+Number of Planar faces
+	Indicator of Shape complexity or detail, potential curvature
+Number of Shells
+	Indicator Complexity of materials and manufacture
+Surface Area
+	Approximates to shape mass
+Distribution of Normals (Matrix density)
+	Indicator of curvature of shape
+Sum of Surface Areas for each discrete normal (sum of normals)
+	Indicator of shape and proportion
+Percentage of planar faces
+	
+	
+Bounding Box
+	Slightly better indicator of shape proportion and mass than bounding sphere
+Number of Triangles
+	Similar indicator to planar faces
+Number of Vertices
+	Indicator of Complexity of detail, proportional to planar faces	
+Number of Edges
+	Angularity
+
+
+Size
+Mass
+Complexity
+Curvature
+Material complexity
+Proportion
+Shape
+Angularity

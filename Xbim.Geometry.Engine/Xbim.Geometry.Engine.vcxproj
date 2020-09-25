@@ -87,6 +87,7 @@
     <LinkKeyFile>$(ProjectDir)..\XbimOpenSourceKeyFile.snk</LinkKeyFile>
     <TargetName>$(ProjectName)64</TargetName>
     <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <OutDir>$(ProjectDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -99,6 +100,7 @@
     <LinkKeyFile>$(ProjectDir)..\XbimOpenSourceKeyFile.snk</LinkKeyFile>
     <TargetName>$(ProjectName)64</TargetName>
     <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <OutDir>$(ProjectDir)$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Link>
